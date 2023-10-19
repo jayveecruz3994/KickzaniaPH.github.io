@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style2.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./kzwhite-fotor-2023101311727.png" alt="" width="120px" height="30px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html"><i class="fa fa-home" aria-hidden="true" style="margin-right: 5px;"></i>HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ShopNow.html" aria-current="page"><i class="fa  fa-store" style="margin-right: 5px;"></i>SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="location.html"><i class="fa fa-map-marker-alt" aria-hidden="true" style="margin-right: 5px;"></i>VISIT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html"><i class="fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i>CONTACT US</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="cart.html"><i class="fa fa-cart-shopping" aria-hidden="true" style="margin-right: 5px;"></i></a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="container-contactpage">
+            <div class="row">
+                <div class="col-6">
+                    <div class="container-contactus" id="contactusform">
+                        <h2 style="text-align: center; margin-bottom: 10px;">Contact Us Form</h2>
+                        <form class="form-inline" onsubmit="openModal()" id="contactSubmit">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for=""><i class="fa fa-user" style="margin-right: 5px;"></i>Full Name:</label><br>
+                                    <input type="text" id="FullName" placeholder="Your Name..." style="width: 99%;">
+                                </div>
+                                <div class="col-6">
+                                    <label for=""><i class="fa fa-phone" style="margin-right: 5px;"></i>Phone:</label><br>
+                                    <input type="text" id="contactnumber" placeholder="+63-999-999-9999 " required style="width: 99%;">
+                                    
+                                </div>
+                            </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                    <label for=""><i class="fa fa-envelope" style="margin-right: 5px;"></i>Email:</label><br>
+                                    <input type="email" id="email" placeholder="juandelacruz@gmail.com" required style="width: 99%;">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for=""><i class="fa fa-message" style="margin-right: 5px;"></i>Message:</label><br>
+                                        <textarea name="" id="" cols="30" rows="10" style="width: 99%;" placeholder="Your message..."></textarea>
+                                    </div>
+                                    <button class="btn" type="submit" id="submitMessagebtn">Submit</button>
+                                </div>
+                                <div class="modal fade" id="submitMessage" tabindex="-1" aria-labelledby="submitMessage" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="checkoutModalHeader"></h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <h1>Thank you for choosing KickzaniaPH!</h1>
+                                        </div>
+                                        <div class="modal-footer">
+                                         
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="container-faq">
+                        <h1>FAQ's</h1>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              What are your operating hours?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Our operating hours are from 10:00AM up to 8:00PM. Mondays through Sundays. </strong>Please be advised that store may be closed on holidays.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              How can I return an item?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>We do not accept return of items unless you received the item with existing damage. </strong> Please provide proof of damage upon receipt to process your claim.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Where is your store located?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Our store is located at 19-21 1st street, Gilmore Ave, Quezon City. </strong> Please refer to our <a href="location.html" style="text-decoration: none;">Visit Us Page</a> for more information.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                               Do you offer discounts?
+                              </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>Our store occassionaly put items on sale.</strong> Please follow us on our social media accounts for promotions and other announcements.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+      
+      <footer>
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="social-icons"> 
+                      <a href="https://www.facebook.com/kickzaniaph04" class="fa-brands fa-facebook"></a>
+                        <a href="https://www.youtube.com/@kickzaniaph440" class="fa-brands fa-instagram"></a>
+                        <a href="https://www.instagram.com/kickzania.ph/" class="fa-brands fa-youtube"></a>
+                    </div>
+                    
+                </div>
+                <div class="col-4">
+                    <div class="footer-nav">
+                        <ul>
+                          <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                          <li><a href="ShopNow.html"><i class="fa fa-store"></i></a></li>
+                          <li><a href="location.html"><i class="fa fa-map-marker-alt"></i></a></li>
+                          <li><a href="contactus.html"><i class="fa fa-phone"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h5>All Rigts Reserved. KickzaniaPH &copy;2023</h5>
+                </div>
+            </div>
+            
+          </div>
+        
+      </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="shop.js"></script>
+</body>
+</html>

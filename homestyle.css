@@ -1,0 +1,278 @@
+main{
+    min-height: 80vh;
+}
+
+body{
+    background-color: #0D3A97;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 80vh;
+}
+
+#homeNav .navbar-brand{
+    background-color: transparent;
+    margin-left: 50px;
+  }
+  
+  #homeNav .navbar-nav{
+    background-color:transparent;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-link{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    
+  }
+  
+  nav{
+  justify-content: space-between;
+  }
+  
+  .navbar{
+    background-color: transparent;
+    
+  }
+  
+  
+  .navbar-brand{
+      background-color: transparent;
+      margin-left: 50px;
+  }
+  
+  .navbar-nav{
+      background-color: transparent;
+      color: white;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .nav-link{
+      background-color: transparent;
+      color: white;
+      text-decoration: none;
+      margin-right: 50px;
+      
+  }
+  
+  nav{
+    justify-content: space-between;
+  }
+  
+  .navbar{
+      background-color: transparent;
+      
+  }
+
+  .back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: inherit;
+    height: 100vh;
+  }
+  
+  @media(min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+  }
+  
+  
+  
+  #hero{
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  #hero h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-top: 200px;
+  }
+  
+  #hero h5{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+    transition: 0.5s;
+  }
+  #hero h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+  }
+  #hero a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: 0.5s;
+    width: auto;
+    justify-content: center;
+  }
+  
+  #hero a:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+  }
+
+
+  * {
+
+    box-sizing: border-box;
+  
+  }
+  
+   
+  
+  .row::after {
+  
+    content: "";
+  
+    clear: both;
+  
+    display: block;
+  
+  }
+  
+   
+  
+  [class*="col-"] {
+  
+    float: left;
+  
+    padding: 15px;
+  
+  }
+  
+  .col-1 {width: 8.33%;}
+  
+  .col-2 {width: 16.66%;}
+  
+  .col-3 {width: 25%;}
+  
+  .col-4 {width: 33.33%;}
+  
+  .col-5 {width: 41.66%;}
+  
+  .col-6 {width: 50%;}
+  
+  .col-7 {width: 58.33%;}
+  
+  .col-8 {width: 66.66%;}
+  
+  .col-9 {width: 75%;}
+  
+  .col-10 {width: 83.33%;}
+  
+  .col-11 {width: 91.66%;}
+  
+  .col-12 {width: 100%;}
+  
+   
+  
+  @media only screen and (max-width: 768px) {
+  
+    /* For mobile phones: */
+  
+    [class*="col-"] {
+  
+      width: 100%;
+  
+    }
+  
+  }
+  
+    @media only screen and (max-width: 400) {
+  
+    /* For mobile phones: */
+  
+    [class*="col-"] {
+  
+      width: 100%;
+  
+    }
+  
+  }
+
+  footer{
+    background-color: transparent;
+    margin-top: 0;
+  }
+
+  .footer-container{
+    width: 100%;
+    padding: 10px;
+    
+  }
+
+  .social-icons{
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: transparent;
+    margin: 30px;
+  }
+
+  .social-icons a i{
+    font-size: 5em;
+    color: white;
+    opacity: 0.9;
+  }
+
+  .social-icons a:hover{
+    background-color: white;
+    transition: 0.5s;
+  }
+
+  .social-icons a:hover i{
+    color: white;
+    transition: 0.5s;
+  }
+
+  .footer-nav{
+    margin: 30px 0;
+  }
+
+  .footer-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-nav ul li a{
+    color: white;
+    margin: 30px  ;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    list-style: none;
+  }
+
+  .footer-nav ul li a:hover{
+    opacity: 1;
+  }
+
+  .footer-container h5{
+    color: white;
+    text-align: center;
+    margin: 30px;
+  }
